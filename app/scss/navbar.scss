@@ -1,0 +1,108 @@
+$fontall: 'Work Sans', sans-serif;
+
+
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(55,74,83,1);
+
+	.modal-content {
+	    position: relative;
+	    background-color: #fefefe;
+	    margin: auto;
+	    padding: 0;
+	    width: 50%;	
+
+		.modal-header {
+		    padding: 60px 0px 30px 30px;
+		    background-color: rgba(228,30,67,1);
+		    color: white;
+		    font-size:36px;
+		    font-family: $fontall;
+		    font-weight: 600;
+		}
+
+		.modal-sorting {
+
+			ul{
+				display:flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				padding: 15px 30px 15px 30px;
+			    background-color: rgba(215,13,62,1);
+
+			    li{
+
+			    	a{
+					    color: rgba(225,225,225,.7);
+					    font-size:16px;
+					    font-family: $fontall;
+					    font-weight: 400;
+					}
+
+					a:hover{
+						color: rgba(225,225,225,1);
+						text-shadow: 0 0 3px white;
+					}	
+				}
+			}
+		}
+
+		.modal-body {
+			padding: 15px 30px 15px 30px;
+			
+			.post{
+				font-family: $fontall;
+				border-bottom: 1px solid #f2efed;
+				padding: 15px 0px 15px 0px;
+				line-height: 20px;
+
+				.post-title{
+					color: rgba(39,60,69,1);
+					font-size: 18px;
+					font-weight: 500;
+					.post-address{
+						color: rgba(212, 219, 223, 1);
+						font-size: 11px;
+					}
+				}
+
+				.post-timestamp{
+					color: rgba(66,84,92,1);
+					font-size: 13px;
+					font-weight:400;
+					.post-user{
+						color: rgba(114,169,198,1)
+					}
+					.post-subreddit{
+						color: rgba(114,169,198,1);
+					}
+				}
+
+				.post-activity{
+					color: rgba(39,60,69,1);
+					font-size: 13px;
+					font-weight: 500;
+					
+				}
+			}
+
+
+
+			
+		}
+
+		.modal-footer {
+
+		    padding: 0px 30px 15px 30px;
+		    
+		}
+	}
+}
