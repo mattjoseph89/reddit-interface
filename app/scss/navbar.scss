@@ -45,6 +45,7 @@ $fontall: 'Work Sans', sans-serif;
 					    font-size:16px;
 					    font-family: $fontall;
 					    font-weight: 400;
+					    text-transform: uppercase;
 					}
 
 					a:hover{
@@ -65,7 +66,7 @@ $fontall: 'Work Sans', sans-serif;
 				line-height: 20px;
 
 				.post-title{
-					color: rgba(39,60,69,1);
+					color: rgba(56,74,83,1);
 					font-size: 18px;
 					font-weight: 500;
 					.post-address{
@@ -75,7 +76,7 @@ $fontall: 'Work Sans', sans-serif;
 				}
 
 				.post-timestamp{
-					color: rgba(66,84,92,1);
+					color: rgba(183,194,200,1);
 					font-size: 13px;
 					font-weight:400;
 					.post-user{
@@ -87,22 +88,35 @@ $fontall: 'Work Sans', sans-serif;
 				}
 
 				.post-activity{
-					color: rgba(39,60,69,1);
 					font-size: 13px;
-					font-weight: 500;
-					
+					.post-comments{
+						color: rgba(39,60,69,1);
+						font-size: 13px;
+						font-weight: 500;
+					}
+					.post-share{
+						color: rgba(39,60,69,1);
+						font-size: 13px;
+						font-weight: 500;
+					}
 				}
 			}
-
-
-
 			
 		}
 
 		.modal-footer {
-
-		    padding: 0px 30px 15px 30px;
-		    
+		    padding: 0px 0px 15px 0px;
+		    display: flex; 
+		    justify-content: center;
+		    .post-load{
+		    	text-align: center;
+		    	padding: 5px 5px 5px 5px;
+		    	text-transform: uppercase;
+		    	background-color: white;
+    			color: rgba(56,74,83,1);
+    			border: 1px solid #f2efed;
+		    	border-radius: 5px;
+		    }   
 		}
 	}
 }

@@ -110,6 +110,7 @@ body {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .modal .modal-content .modal-sorting ul li a:hover {
@@ -129,7 +130,7 @@ body {
 }
 
 .modal .modal-content .modal-body .post .post-title {
-  color: #273c45;
+  color: #384a53;
   font-size: 18px;
   font-weight: 500;
 }
@@ -140,7 +141,7 @@ body {
 }
 
 .modal .modal-content .modal-body .post .post-timestamp {
-  color: #42545c;
+  color: #b7c2c8;
   font-size: 13px;
   font-weight: 400;
 }
@@ -154,11 +155,33 @@ body {
 }
 
 .modal .modal-content .modal-body .post .post-activity {
+  font-size: 13px;
+}
+
+.modal .modal-content .modal-body .post .post-activity .post-comments {
+  color: #273c45;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.modal .modal-content .modal-body .post .post-activity .post-share {
   color: #273c45;
   font-size: 13px;
   font-weight: 500;
 }
 
 .modal .modal-content .modal-footer {
-  padding: 0px 30px 15px 30px;
+  padding: 0px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal .modal-content .modal-footer .post-load {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #384a53;
+  border: 1px solid #f2efed;
+  border-radius: 5px;
 }
