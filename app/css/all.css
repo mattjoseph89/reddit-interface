@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans");
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .sidebar {
@@ -18,11 +18,11 @@ body {
   background: #33454F;
   font-size: 15px;
   width: 200px;
-  margin: auto;
   padding-top: 20px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
-  top: 100px;
+  top: 90px;
+  right: 20px;
   border-radius: 5px;
 }
 
@@ -33,8 +33,7 @@ body {
 }
 
 .submit_link:hover {
-  background: white;
-  color: #33454F;
+  background: rgba(51, 69, 79, 0.3);
 }
 
 .login-block {
@@ -42,8 +41,9 @@ body {
   padding: 20px;
   background: #33454F;
   border-radius: 5px;
-  border-top: 5px solid #ff656c;
+  border-top: 5px solid #E7183F;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .login-block h1 {
@@ -53,19 +53,36 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .login-block input {
   width: 100%;
-  height: 42px;
+  height: 35px;
   box-sizing: border-box;
   border-radius: 5px;
   border: 1px solid #ccc;
   margin-bottom: 20px;
   font-size: 14px;
   outline: none;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.login-block button {
+  width: 100%;
+  height: 40px;
+  background: #E7183F;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #e15960;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  outline: none;
+}
+
+.login-block button:hover {
+  background: #ff7b81;
 }
 .modal {
   position: fixed;
