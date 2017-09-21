@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.sidebar {
+	background: #41535D;
+	color: white; 
+	
+	
+	width: 300px;
+	height: 400px;
+	
+	position: absolute; 
+	right: 10px;
+	top: 100px;
+
+}
+
+.submit_link {
+	background: #33454F;
+	font-size: 15px;
+
+	width: 200px;
+	margin: auto;
+	padding-top: 20px; 
+    padding: 10px;
+
+	position: relative;	
+	top: 100px;
+
+	border-radius: 5px;
+}
+
+.link {
+	position: absolute;
+	color: #E7183F;
+	right: 15px;
+}
+
+.submit_link:hover {
+	background: white;
+	color: #33454F;
+}
+
+// Sign In 
+.login-block {
+    width: 200px;
+    padding: 20px;
+    background: #33454F;
+    border-radius: 5px;
+    border-top: 5px solid #ff656c;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+}
