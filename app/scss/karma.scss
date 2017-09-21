@@ -1,0 +1,29 @@
+.post{
+	display:flex;
+	flex-direction:row; 
+	position:relative;
+}
+
+.karma{
+
+	display:flex;
+	flex-direction: column; 
+	position:absolute; 
+	left: -80px;
+	top: 3px;
+
+	.arrow{
+		background: none;
+		border:none;
+		color: rgba(90,111,122,1);
+		font-size: 36px;
+		margin:0;
+		padding:0;
+	}
+
+	.upvotes{
+		color:white;
+		margin-top:-10px;
+		margin-bottom:-12px;
+	}
+}

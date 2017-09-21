@@ -1,4 +1,31 @@
+.post {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
 
+.karma {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -80px;
+  top: 3px;
+}
+
+.karma .arrow {
+  background: none;
+  border: none;
+  color: #5a6f7a;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.karma .upvotes {
+  color: white;
+  margin-top: -10px;
+  margin-bottom: -12px;
+}
 .modal {
   display: flex;
   flex-direction: row;
@@ -57,42 +84,42 @@
   line-height: 20px;
 }
 
-.modal .modal-main .modal-body .post .post-title {
+.modal .modal-main .modal-body .post .post-content .post-title {
   color: #384a53;
   font-size: 18px;
   font-weight: 500;
 }
 
-.modal .modal-main .modal-body .post .post-title .post-address {
+.modal .modal-main .modal-body .post .post-content .post-title .post-address {
   color: #d4dbdf;
   font-size: 11px;
 }
 
-.modal .modal-main .modal-body .post .post-timestamp {
+.modal .modal-main .modal-body .post .post-content .post-timestamp {
   color: #b7c2c8;
   font-size: 13px;
   font-weight: 400;
 }
 
-.modal .modal-main .modal-body .post .post-timestamp .post-user {
+.modal .modal-main .modal-body .post .post-content .post-timestamp .post-user {
   color: #72a9c6;
 }
 
-.modal .modal-main .modal-body .post .post-timestamp .post-subreddit {
+.modal .modal-main .modal-body .post .post-content .post-timestamp .post-subreddit {
   color: #72a9c6;
 }
 
-.modal .modal-main .modal-body .post .post-activity {
+.modal .modal-main .modal-body .post .post-content .post-activity {
   font-size: 13px;
 }
 
-.modal .modal-main .modal-body .post .post-activity .post-comments {
+.modal .modal-main .modal-body .post .post-content .post-activity .post-comments {
   color: #273c45;
   font-size: 13px;
   font-weight: 500;
 }
 
-.modal .modal-main .modal-body .post .post-activity .post-share {
+.modal .modal-main .modal-body .post .post-content .post-activity .post-share {
   color: #273c45;
   font-size: 13px;
   font-weight: 500;
@@ -112,6 +139,10 @@
   color: #384a53;
   border: 1px solid #f2efed;
   border-radius: 5px;
+}
+
+.modal .modal-main .modal-footer .post-load:hover {
+  background-color: #e6e6e6;
 }
 body {
   font-family: 'Work Sans', sans-serif;

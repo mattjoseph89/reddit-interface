@@ -59,43 +59,47 @@ $fontall: 'Work Sans', sans-serif;
 			padding: 15px 30px 15px 30px;
 			
 			.post{
+
 				border-bottom: 1px solid #f2efed;
 				padding: 15px 0px 15px 0px;
 				line-height: 20px;
 
-				.post-title{
-					color: rgba(56,74,83,1);
-					font-size: 18px;
-					font-weight: 500;
-					.post-address{
-						color: rgba(212, 219, 223, 1);
-						font-size: 11px;
-					}
-				}
+				.post-content{
 
-				.post-timestamp{
-					color: rgba(183,194,200,1);
-					font-size: 13px;
-					font-weight:400;
-					.post-user{
-						color: rgba(114,169,198,1)
+					.post-title{
+						color: rgba(56,74,83,1);
+						font-size: 18px;
+						font-weight: 500;
+						.post-address{
+							color: rgba(212, 219, 223, 1);
+							font-size: 11px;
+						}
 					}
-					.post-subreddit{
-						color: rgba(114,169,198,1);
-					}
-				}
 
-				.post-activity{
-					font-size: 13px;
-					.post-comments{
-						color: rgba(39,60,69,1);
+					.post-timestamp{
+						color: rgba(183,194,200,1);
 						font-size: 13px;
-						font-weight: 500;
+						font-weight:400;
+						.post-user{
+							color: rgba(114,169,198,1)
+						}
+						.post-subreddit{
+							color: rgba(114,169,198,1);
+						}
 					}
-					.post-share{
-						color: rgba(39,60,69,1);
+
+					.post-activity{
 						font-size: 13px;
-						font-weight: 500;
+						.post-comments{
+							color: rgba(39,60,69,1);
+							font-size: 13px;
+							font-weight: 500;
+						}
+						.post-share{
+							color: rgba(39,60,69,1);
+							font-size: 13px;
+							font-weight: 500;
+						}
 					}
 				}
 			}
@@ -114,7 +118,10 @@ $fontall: 'Work Sans', sans-serif;
     			color: rgba(56,74,83,1);
     			border: 1px solid #f2efed;
 		    	border-radius: 5px;
-		    }   
+		    }  
+		    .post-load:hover{
+		    	background-color:darken( white, 10% )
+		    } 
 		}
 	}
 }
