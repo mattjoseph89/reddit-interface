@@ -55,6 +55,71 @@
 #search input[type="text"]:focus {
   width: 200px;
 }
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #374a53;
+}
+
+.sidebar {
+  background: #41535D;
+  color: white;
+  width: 300px;
+  height: 400px;
+  margin-right: 100px;
+  position: fixed;
+  right: 100px;
+  top: 20px;
+}
+
+.submit_link {
+  background: #33454F;
+  font-size: 15px;
+  width: 200px;
+  padding-top: 20px;
+  padding: 20px;
+  position: relative;
+  top: 90px;
+  right: 20px;
+  border-radius: 5px;
+}
+
+.submit_link .link {
+  position: absolute;
+  color: #E7183F;
+  right: 15px;
+}
+
+.random_link {
+  background: #33454F;
+  font-size: 15px;
+  width: 200px;
+  padding-top: 20px;
+  padding: 20px;
+  position: relative;
+  top: 40px;
+  right: 20px;
+  border-radius: 5px;
+}
+
+.random_link .link {
+  position: absolute;
+  color: #E7183F;
+  right: 15px;
+}
+
+.submit_link:hover .random_link:hover {
+  background: rgba(51, 69, 79, 0.3);
+}
+
+.alien {
+  font-size: 30px;
+  text-align: center;
+}
+
+.welcome {
+  padding: 10px;
+  padding-bottom: 20px;
+}
 .modal {
   display: flex;
   flex-direction: row;
