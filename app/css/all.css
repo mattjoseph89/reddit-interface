@@ -385,14 +385,19 @@ body {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  display: flex;
 }
 
 /* The Close Button */
 
+.exit {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .close {
   color: black;
   font-size: 28px;
-  float: right;
   margin-bottom: 8px;
 }
 
@@ -402,13 +407,13 @@ body {
 }
 
 .submit {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .comment,
 .submit {
   padding: 10px;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
