@@ -52,11 +52,10 @@ body {
 
 .sidebar-loggedin {
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #41535D;
-  color: white;
-  width: 300px;
-  height: 400px;
-  margin-right: 100px;
 }
 
 .submit_text {
@@ -176,10 +175,11 @@ body {
 .sidebar .submit_post {
   padding: 35px 25px 35px 25px;
   border-bottom: 1px solid #374a53;
+  display: flex;
 }
 
 .sidebar .submit_post .submit-button {
-  padding: 15px 36.5px 15px 36.5px;
+  padding: 15px 35.5px 15px 35.5px;
   background: #33454F;
   font-size: 15px;
   color: white;
@@ -366,11 +366,8 @@ body {
 
 .postmodal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   padding: 20px;
   background-color: #E7183F;
   top: 100px;
@@ -385,11 +382,9 @@ body {
 .postmodal-content {
   background-color: #fefefe;
   margin: 15% auto;
-  /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
